@@ -305,13 +305,110 @@
     justify-content: center;
     position: relative;
     left: 100%;
-    bottom: 550px;
+    bottom: 600px;
+    transform: rotate(-180deg);
 }
 
 .main-center {
+    height: 426px;
+    background-image: url("../images/bag-img2.png");
+    background-color: #6FA480;
+    background-size: contain;
+}
 
-    height: 400px;
-    background-color: linear-gradient(285.45deg, #0B3F37 38.27%, #CB8D62 141.81%);
+.center-container {
+    width: 1400px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+.center-img {
+    position: relative;
+    left: 1000px;
+    top: 130px;
+}
+
+.center-img1 {
+    position: relative;
+    left: 230px;
+    top: 122px;
+}
+
+.center-img2 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.center-box {
+    position: relative;
+    bottom: 240px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.center-box h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 74.9%;
+}
+
+.center-box h1:hover {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 140px;
+    line-height: 74.9%;
+    color: #E4A16F;
+}
+
+.center-box h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 96.4%;
+    width: 533px;
+    margin-top: 40px;
+}
+
+.center-box h5:hover {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 96.4%;
+    width: 533px;
+    margin-top: 40px;
+    color: #E4A16F;
+}
+
+.center-box button {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 96.4%;
+    padding: 15px 0;
+    text-align: center;
+    width: 327px;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.center-box button:hover {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 96.4%;
+    padding: 15px 0;
+    text-align: center;
+    width: 327px;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+    box-shadow: 5px 5px 50px 0.5px #E4A16F;
 
 }
 
@@ -329,6 +426,7 @@
     justify-content: center;
     background-color: white;
 }
+
 .new-span-img:hover {
     position: relative;
     left: 86%;
@@ -343,13 +441,15 @@
     justify-content: center;
     background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
 }
-.new-logo2{
+
+.new-logo2 {
     position: relative;
     left: 382px;
     bottom: 700px;
 }
-.new-logo3{
+
+.new-logo3 {
     position: relative;
-    left:765px;
+    left: 765px;
     bottom: 700px;
 }
