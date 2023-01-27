@@ -6,6 +6,231 @@
     max-width: 100%;
 }
 
+
+header{
+    margin: 0 auto;
+    width: 1520px;
+height: 721px;
+    box-sizing: border-box;
+  background-image: url(../images/header-bgc.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-top{
+display: flex;
+gap: 70px;
+align-items: center;
+margin-left: 195px;
+padding-top: 40px;
+}
+
+.header-top-logo1{
+    padding-top: -20px;
+    box-sizing: border-box;
+}
+
+
+.header-ul{
+    display: flex;
+    gap: 40px;  
+}
+
+.header-li{
+    text-decoration: none;
+    list-style: none;
+
+    
+}
+
+.header-li-link{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 96.4%;
+/* or 15px */
+list-style: none;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+padding-bottom: 1px;
+/* border-bottom: 1px solid; */
+}
+
+.header-li-link:hover{
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 96.4%;
+background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+border-bottom: 2px solid #a0714d   ;
+}
+
+.header-end{
+margin-left: 195px ;
+display: flex;
+}
+
+.header-end-left{
+    margin-top: 90px;
+}
+
+.header-end-left-h1{
+    font-family: 'Lighthaus';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 110px;
+    line-height: 74.9%;   
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.header-end-left-p1{
+    font-style: normal;
+font-weight: 800;
+font-size: 45px;
+line-height: 96.4%;
+color: #FFFFFF;
+margin-top: 45px;
+}
+.header-end-left-span{
+    display: inline-block;
+    display: flex;
+    gap: 90px;
+    margin-top: 37px;
+}
+
+.header-end-left-span-p1{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 96.4%;
+   
+    color: #FFFFFF;
+}
+
+.header-end-left-span-p2{
+    font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 96.4%;
+color: #FFFFFF;
+}
+
+.header-end-left-btn{
+    width: 320px;
+height: 50px;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 96.4%;
+border: none;
+text-align: center;
+margin-top: 30px;
+color: #FFFFFF;
+transition: 0.8s;
+background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+}
+
+.header-end-left-btn:hover{
+    box-shadow: 0px 0px 10px 0.5px #E4A16F;
+}
+
+.header-end-left-in{
+    display: flex;
+    gap: 10px;   
+    margin-top: 40px;
+}
+
+.header-animet{
+    width: 12px;
+height: 12px;
+background: #FFFFFF;
+transition: 1s;
+}
+
+.header-animet:hover{
+    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+}
+
+
+.header-end-left-in2{
+    margin-top: 20px;
+}
+
+
+.header-end-animet{
+    margin-left: 3.9px;
+    margin-top: 10px;
+}
+
+.header-end-animet2{
+    margin-top: -10px;
+}
+
+.header-art-left{
+    position: absolute;
+    top: 49%;
+}
+
+.header-art-right{
+    top: 49%;
+    position: absolute;
+    left: 1430px;
+}
+
+.header-end-right{
+    margin-left: 100px;
+}
+
+.header-end-positon1{
+    position: absolute;
+left: 810px;
+top:110px ;
+}
+
+.header-end-positon2{
+   position: absolute;
+   top: 330px;
+   left: 880px;
+    
+}
+
+.header-top-positon1{
+    top: -1px;
+    left: 1140px;
+    position: absolute;
+}
+
+.header-top-positon2{
+    top: -1px;
+    left: 1195px;
+    position: absolute;
+}
+
+.header-top-positon3{
+    top: -1px;
+    left: 1250px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .protuct {
     background-color: rgb(232, 232, 232);
 }
