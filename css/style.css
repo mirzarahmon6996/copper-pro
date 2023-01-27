@@ -312,6 +312,7 @@
 .main-center {
     height: 426px;
     background-image: url("../images/bag-img2.png");
+    background-repeat: no-repeat;
     background-color: #6FA480;
     background-size: contain;
 }
