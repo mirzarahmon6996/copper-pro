@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.hero{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-images{
+    width: 76px;
+height: 76px;
+left: 261px;
+top: 7259px;
+
+background: linear-gradient(278.32deg, #0B3F37 -7.03%, #CB8D62 136.33%)
+}
+img{
+    padding-top: 20px;
+    padding-left: 15px;
+
+}
+
+.hero-bold {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 96.4%;
+    /* or 19px */
+
+
+    color: #031412;
+}
+
+.hero-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 134.4%;
+    /* or 19px */
+
+    width: 300px;
+    height: 90px;
+    color: #031412;
+
+}
+
+.hero-button {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 134.4%;
+    /* identical to box height, or 19px */
+    
+    position: relative;
+    right: 8px;
+    bottom: 30px;
+    background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+
+    border: none;
+}
+.tick-images{
+   
+    position: relative;
+    right: 10px;
+}
